@@ -1,0 +1,13 @@
+@import "_myMixins";
+
+a {
+  text-decoration: none;
+
+  &:nth-child(odd) {
+    @include myTitle("true");
+  }
+
+  &:nth-child(even) {
+    @include myTitle("false");
+  }
+}
