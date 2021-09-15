@@ -1,0 +1,154 @@
+body {
+    width: 47vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 3vh;
+    gap: 3vh;
+    box-sizing: border-box;
+    border: 5px solid #46AA4E;
+}
+
+
+header {
+    height: 8vh;
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 3vh;
+    font-weight: 800;
+}
+
+.close {
+    position: absolute;
+    left: 1vh;
+}
+
+.topSection {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.yellowBox {
+    width: 15vh;
+    height: 15vh;
+    margin-left: 1vh;
+    background-color: #FEC127;
+    border: 2px solid;
+    border-radius: 10%;
+}
+
+.topTextSection {
+    width: 60%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.randomLove {
+    font-size: 4vh;
+    font-weight: 800;
+}
+
+.author {
+    font-size: 2vh;
+    font-weight: 800;
+}
+
+.buttonSection {
+    height: 11vh;
+    display: flex;
+    align-items: center;
+}
+
+.buttonSection article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px 2px 5px 2px;
+}
+
+.playButton {
+    width: 40%;
+    height: 7vh;
+    display: flex;
+    border-radius: 3vh;
+    font-size: 3vh;
+    font-weight: 800;
+}
+
+.heartButton {
+    width: 7vh;
+    height: 7vh;
+    border-radius: 50%;
+    margin-left: 5%;
+    font-size: 4vh;
+}
+
+.plusButton {
+    width: 7vh;
+    height: 7vh;
+    border-radius: 50%;
+    margin-left: 5%;
+    font-size: 6vh;
+}
+
+.describeSection {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+}
+
+.colorSection {
+    display: flex;
+    height: 20%;
+}
+
+.box {
+    width: 6vh;
+    height: 6vh;
+    border: 2px solid;
+    border-radius: 10%;
+}
+
+.red {
+    background-color: #F85B2A;
+}
+
+.pink {
+    background-color: #FF8ABB;
+}
+
+.blue {
+    background-color: #1948E3;
+}
+
+.green {
+    background-color: #00C6AD;
+}
+
+.colorText {
+    height: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2vh;
+}
+
+.describeTop {
+    font-size: 3vh;
+    font-weight: 800;
+}
+
+.describeBottom {
+    font-size: 2vh;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.6);
+}
