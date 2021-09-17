@@ -1,0 +1,216 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    width: 44vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+}
+
+.banner {
+    height: 15vh;
+    background-color: #FFCE32;
+    padding: 0 2vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3vh;
+    position: relative;
+}
+
+.banner__searchBar {
+    position: absolute;
+    width: 80%;
+    height: 6vh;
+    border-radius: 3vh;
+    border-color: transparent;
+    background-color: white;
+    top: 12vh;
+    left: 10%;
+    box-shadow: 0 1vh rgba(80, 80, 80, 0.2);
+    padding-left: 2vh;
+    font-size: 2vh;
+}
+
+.banner__searchBar::placeholder {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.banner__searchIcon {
+    position: absolute;
+    top: 13.8vh;
+    left: 80%;
+    font-size: 2.3vh;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.main {
+    height: 30vh;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vh;
+}
+
+.main__header {
+    font-size: 3vh;
+    font-weight: 800;
+    height: 20%;
+}
+
+.book {
+    display: flex;
+    height: 80%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 0;
+}
+
+.book__image {
+    width: 30%;
+    height: 100%;
+    background-color: #FEC127;
+}
+
+.book__description {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.book__title {
+    font-size: 3vh;
+    font-weight: 600;
+    height: 20%;
+}
+
+.book__author {
+    font-size: 2vh;
+    color: rgba(0, 0, 0, 0.2);
+    height: 20%;
+}
+
+.book__star {
+    height: 20%;
+}
+
+.book__tags {
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.book__tags__tag {
+    padding: 1vh 2vh;
+    background-color: lightgray;
+}
+
+.book__icons {
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.book__icons__icon1 {
+    background-color: #FEC127;
+    width: 3vh;
+    height: 3vh;
+    border-radius: 50%;
+}
+
+.book__icons__icon2 {
+    background-color: black;
+    color: darkgray;
+    padding: 0.5vh 2vh;
+    border-radius: 1vh;
+}
+
+.adventures {
+    height: 20%;
+    padding-left: 2vh;
+    margin-top: 3vh;
+}
+
+.adventures__header {
+    height: 15%;
+    font-size: 3vh;
+    font-weight: 600;
+}
+
+.adventures__sections {
+    height: 85%;
+    display: flex;
+    gap: 5%;
+    padding-top: 5%;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.adventures__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 20%;
+    flex: 0 0 auto
+}
+
+.adventures__section__image {
+    height: 80%;
+    width: 100%;
+    background-color: #46AA4E;
+}
+
+.adventures__section__star {
+    height: 10%;
+}
+
+.author {
+    margin-top: 5%;
+    height: 20%;
+    padding-left: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.author__header {
+    font-size: 3vh;
+    font-weight: 800;
+    height: 20%;
+}
+
+.author__main {
+    display: flex;
+    height: 80%;
+    gap: 3vh;
+    align-items: center;
+}
+
+.author__main__image {
+    width: 30%;
+    height: 80%;
+    background-color: #605FA9;
+}
+
+.author__main__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.author__main__text__top {
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+
+.author__main__text__bottom {
+    font-size: 1.5vh;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.2);
+}
