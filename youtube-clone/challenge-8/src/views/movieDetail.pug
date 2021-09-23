@@ -1,0 +1,21 @@
+extends layout
+
+block main
+  if movie.summary
+    h3 Summary
+    p #{movie.summary}
+  
+  if movie.genres
+    h3 Genre
+    ul
+      each genre in movie.genres
+        li #{genre}
+
+  if movie.year 
+    h3 Publish Year
+    p #{movie.year}
+    
+  if movie.runtime
+    h3 Runtime 
+    p #{movie.runtime} min
+  

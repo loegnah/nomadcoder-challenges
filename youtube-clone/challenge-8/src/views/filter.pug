@@ -1,0 +1,7 @@
+extends layout
+
+block main
+  include ./form
+  each movie in movies
+    div
+        a(href=`${movie.id}`) #{movie.title}
